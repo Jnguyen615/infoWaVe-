@@ -30,14 +30,12 @@ _InfoWaVe is the place to come for tech news. Users can search for articles usin
 <h2  id="getting-started">🗂️ Getting Started </h2>
 
 1. Fork or clone down this respository.
-2. In the terminal, open this app by running the command `cd infowave`
+2. In the terminal, open this app by running the command `cd infowave-`
 3. Run the command `npm install` to install dependencies.
 4. Run the command `npm start` to start the server.
 5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-6. You can also view the project <a href="ffxiv-mount-companion-7aigj2w0p-jen-nguyens-projects.vercel.app">here</a>.
 7. Use control C to stop the server.
-<!-- 8. To test, run the command `node_modules/.bin/cypress open`. -->
-
+8. The api used for the application does not allow API calls for prouduciton so
 <h2  id="planning"> 📝 Planning Process </h2>
 
 _In planning for this application I spent time looking for design ideas and did a basic design schema of how I wanted my application to look. I then broke down the architecutre into how I planned to set it up in the code with all the connected routes and componenets. This gave me vision for not only the design but how the structure of the application will flow._
@@ -62,7 +60,7 @@ _In planning for this application I spent time looking for design ideas and did 
 
 <h2 id="wins">🏆 Wins </h2>
   
- - Getting a better understanding of Cypress.
+- Getting a better understanding of Cypress.
 
 - Figuring out responsive design
 
@@ -72,8 +70,9 @@ _In planning for this application I spent time looking for design ideas and did 
 
 <h2 id="future-ideas">💡 Future Ideas </h2>
 
-- Add favoriting feature for user to favorite and save articles for future reference
+- User login for saving articles
+
+- Add favoriting feature for users to favorite and save articles for future reference
 
 - Allowing users to shuffle their saved articles into a particular order
 
-- User login for saving articles
