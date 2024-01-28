@@ -1,0 +1,8 @@
+@mixin card-styles {
+  cursor: pointer;
+  transition: transform $transition-speed ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

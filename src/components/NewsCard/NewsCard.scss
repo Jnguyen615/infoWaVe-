@@ -1,0 +1,42 @@
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+  background-color: #15031a;
+
+  .article-card-image {
+    margin-top: 5px;
+    width: 75%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .article-card-info {
+    padding: 16px;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .article-card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #701573;
+  }
+
+  .article-card-description {
+    font-size: 1rem;
+    color: silver;
+    margin-bottom: 12px;
+  }
+
+  .article-card-date, .article-card-author {
+    font-size: 0.9rem;
+    color: #701573;
+  }
+}
+
+

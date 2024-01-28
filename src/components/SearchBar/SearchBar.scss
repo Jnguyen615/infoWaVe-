@@ -1,0 +1,18 @@
+@import '../../Styles/variables.scss';
+
+.search-input {
+  background-color: $primary-color;
+  border: none;
+  border-radius: 20px;
+  height: 25px;
+  width: 300px;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .search-input {
+    width: 200px;
+    font-size: 1em
+  }
+}
