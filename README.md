@@ -35,7 +35,10 @@ _InfoWaVe is the place to come for tech news. Users can search for articles usin
 4. Run the command `npm start` to start the server.
 5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 7. Use control C to stop the server.
-8. The api used for the application does not allow API calls for prouduciton so
+8. The api used for the application does not allow API calls for prouduciton so there is no deployment for this application.
+9. I accidentally added unneeded dependencies that broke the original application, this is a revamp of the original application.
+10. To see all the original commits please refer to this ling [Original Repo](https://github.com/Jnguyen615/InfoWaVe)
+    
 <h2  id="planning"> 📝 Planning Process </h2>
 
 _In planning for this application I spent time looking for design ideas and did a basic design schema of how I wanted my application to look. I then broke down the architecutre into how I planned to set it up in the code with all the connected routes and componenets. This gave me vision for not only the design but how the structure of the application will flow._
