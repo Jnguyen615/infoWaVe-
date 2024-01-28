@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+<div align='center'>
+ <h1> 🌊 InfoWaVe 🌊 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contributors 👩🏻‍💻
 
-## Available Scripts
+[Jen Nguyen](http://github.com/jnguyen615)
 
-In the project directory, you can run:
+### 📂 Tech Stack
 
-### `npm start`
+<img src="https://img.shields.io/badge/react%20-%236a0dad.svg?&style=for-the-badge&logo=react&logoColor=%8f4db2"/>
+<img src="https://img.shields.io/badge/React_Router-6a0dad?style=for-the-badge&logo=react-router&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-39FF14?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VSCode-6a0dad?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"/>
+<img src="https://img.shields.io/badge/Sass-6a0dad?style=for-the-badge&logo=sass&logoColor=white"/>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📚 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Overview](#overview)
+- [Planning Process](#planning-process)
+- [Getting Started](#getting-started)
+- [Preview](#preview)
+- [Wins](#wins)
+- [Future Ideas](#future-ideas)
 
-### `npm test`
+<h2  id="overview"> 🌐 Overview </h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_InfoWaVe is the place to come for tech news. Users can search for articles using keywords or browse by scrolling!_
 
-### `npm run build`
+<h2  id="getting-started">🗂️ Getting Started </h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Fork or clone down this respository.
+2. In the terminal, open this app by running the command `cd infowave`
+3. Run the command `npm install` to install dependencies.
+4. Run the command `npm start` to start the server.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+6. You can also view the project <a href="ffxiv-mount-companion-7aigj2w0p-jen-nguyens-projects.vercel.app">here</a>.
+7. Use control C to stop the server.
+<!-- 8. To test, run the command `node_modules/.bin/cypress open`. -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2  id="planning"> 📝 Planning Process </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_In planning for this application I spent time looking for design ideas and did a basic design schema of how I wanted my application to look. I then broke down the architecutre into how I planned to set it up in the code with all the connected routes and componenets. This gave me vision for not only the design but how the structure of the application will flow._
 
-### `npm run eject`
+<img width="503" alt="Screenshot 2024-01-26 at 8 33 26 PM" src="https://github.com/Jnguyen615/InfoWaVe/assets/119434450/e92c0a85-8d7e-4489-a46d-866ccf41dee4">
+<img width="505" alt="Screenshot 2024-01-26 at 8 33 36 PM" src="https://github.com/Jnguyen615/InfoWaVe/assets/119434450/36ba78ae-f04f-4e50-89d4-b85cca8d2440">
+<img width="601" alt="Screenshot 2024-01-26 at 8 33 43 PM" src="https://github.com/Jnguyen615/InfoWaVe/assets/119434450/4279d29c-2116-49fe-88d4-577c53954d07">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2  id="preview"> 🎥 Preview 📱 </h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXFlbnZuYWZzbXlvb3Y5eHp3ODk2enRqc2FyZXlwNTE2OWV5MDJycSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DS6cTF5WwUYM0zVV38/giphy.gif" alt="Infowave newsreader gif">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h3 id="mobile"> 📱 Mobile and Tablet Views </h3>
+<img width="410" alt="Screenshot 2024-01-26 at 8 51 52 PM" src="https://github.com/Jnguyen615/InfoWaVe/assets/119434450/ff79ec42-c12c-4586-909a-938a9cc43445">
+<img width="375" alt="Screenshot 2024-01-26 at 8 51 27 PM" src="https://github.com/Jnguyen615/InfoWaVe/assets/119434450/2075b341-b9d5-40a0-8f03-a6263bd12a65">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2 id="challenges">💪🏻 Challenges </h2>
 
-## Learn More
+- Implementing the search functionality with a filter
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Getting down the fundamentals of React and Router
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="wins">🏆 Wins </h2>
+  
+ - Getting a better understanding of Cypress.
 
-### Code Splitting
+- Figuring out responsive design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Getting a better understanding of React and how to work with components and import them where needed
 
-### Analyzing the Bundle Size
+- Incorporating SASS variables and mixins for managing common styles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h2 id="future-ideas">💡 Future Ideas </h2>
 
-### Making a Progressive Web App
+- Add favoriting feature for user to favorite and save articles for future reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Allowing users to shuffle their saved articles into a particular order
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- User login for saving articles
